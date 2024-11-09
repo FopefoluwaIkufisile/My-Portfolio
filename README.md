@@ -1,2 +1,2 @@
-# Portfolio-Template
-This is a template for a Portfolio Website
+# My Portfolio
+This is my Portfolio Website
