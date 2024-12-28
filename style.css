@@ -265,16 +265,16 @@ header .follow a:hover{
     border-radius: 50rem;
 }
 .about .row-2 .skills .progress:nth-child(1) .bar span{
-    width: 95%;
+    width: 80%;
 }
 .about .row-2 .skills .progress:nth-child(2) .bar span{
-    width: 80%;
+    width: 90%;
 }
 .about .row-2 .skills .progress:nth-child(3) .bar span{
     width: 75%;
 }
 .about .row-2 .skills .progress:nth-child(4) .bar span{
-    width: 85%;
+    width: 75%;
 }
 .about .row-2 .box-container{
     flex: 1 1 40rem;
