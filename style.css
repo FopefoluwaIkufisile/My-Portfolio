@@ -30,7 +30,6 @@ body{
 }
 section{
     padding: 1rem 5%;
-    min-height: 100vh;
 }
 .heading{
     font-size: 4rem;
