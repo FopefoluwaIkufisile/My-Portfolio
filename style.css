@@ -455,6 +455,9 @@ header .follow a:hover{
     border-radius: .5rem;
 
 }
+.image-style{
+    object-fit: contain;
+}
 .contact .icons-container .icons i{
     height: 5rem;
     width: 5rem;
