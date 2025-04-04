@@ -299,11 +299,17 @@ const projects = [
     title: "Shop Desk (Team Project)",
     imageUrl:
       "https://i.ibb.co/N6Md1CcH/Screenshot-2025-03-31-at-2-26-38-AM.png",
-    githubUrl:
-      "https://github.com/hngprojects/shopdesk-fe",
-    liveUrl:
-      "https://shopdesk.im/",
-  }
+    githubUrl: "https://github.com/hngprojects/shopdesk-fe",
+    liveUrl: "https://shopdesk.im/",
+  },
+  {
+    id: 35,
+    title: "Conference Ticket Generator",
+    imageUrl:
+      "https://i.ibb.co/GQTpzjzP/Screenshot-2025-04-04-at-10-31-03-AM.png",
+    githubUrl: "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Conference-ticket-generator",
+    liveUrl: "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Conference-ticket-generator/",
+  },
 ];
 
 menu.onclick = () => {
