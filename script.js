@@ -310,6 +310,14 @@ const projects = [
     githubUrl: "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Conference-ticket-generator",
     liveUrl: "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Conference-ticket-generator/",
   },
+  {
+    id: 36,
+    title: "Bento Grid",
+    imageUrl:
+      "https://i.ibb.co/zVXP2VgY/Screenshot-2025-04-04-at-9-07-04-PM.png",
+    githubUrl: "https://github.com/FopefoluwaIkufisile/Frontend-bento-grid",
+    liveUrl: "https://fopefoluwaikufisile.github.io/Frontend-bento-grid/",
+  }
 ];
 
 menu.onclick = () => {
