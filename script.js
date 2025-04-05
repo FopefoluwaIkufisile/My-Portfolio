@@ -317,7 +317,16 @@ const projects = [
       "https://i.ibb.co/zVXP2VgY/Screenshot-2025-04-04-at-9-07-04-PM.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/Frontend-bento-grid",
     liveUrl: "https://fopefoluwaikufisile.github.io/Frontend-bento-grid/",
+  },
+  {
+    id: 37,
+    title: "Product Cart list",
+    imageUrl:
+      " https://i.ibb.co/RGybrNKz/Screenshot-2025-04-05-at-6-08-29-AM.png",
+    githubUrl: "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Product-list-with-cart",
+    liveUrl: "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Product-list-with-cart/",
   }
+ 
 ];
 
 menu.onclick = () => {
