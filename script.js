@@ -369,9 +369,12 @@ const projects = [
     type: "Frontend Mentor",
   },
 ];
-document.querySelector(".dark-mode").addEventListener("click", ()=>{
-  document.querySelector("body").classList.toggle("dark")
-})
+document.querySelector(".dark-mode").addEventListener("click", () => {
+  document.querySelector("body").classList.toggle("dark");
+  document.querySelector("body").classList.contains("dark")
+    ? (document.querySelector(".dark-mode").textContent = "Light Mode")
+    : (document.querySelector(".dark-mode").textContent = "Dark Mode");
+});
 menu.onclick = () => {
   menu.classList.toggle("fa-times");
   header.classList.toggle("active");
