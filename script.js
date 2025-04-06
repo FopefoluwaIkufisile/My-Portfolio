@@ -2,6 +2,8 @@ let menu = document.querySelector("#menu-bars");
 let header = document.querySelector("header");
 const btnSend = document.getElementById("btnsend");
 let projectContainer = document.querySelector(".projects-box");
+const filterBtn = document.querySelector(".filter");
+const selectBtn = document.querySelector(".select");
 
 const projects = [
   {
@@ -13,6 +15,7 @@ const projects = [
       "https://github.com/FopefoluwaIkufisile/Intro-component-with-sign-up-form.git",
     liveUrl:
       "https://fopefoluwaikufisile.github.io/Intro-component-with-sign-up-form/",
+    type: "Frontend Mentor",
   },
   {
     id: 2,
@@ -22,6 +25,7 @@ const projects = [
     githubUrl:
       "https://github.com/FopefoluwaIkufisile/-Social-links-profile.git",
     liveUrl: "https://fopefoluwaikufisile.github.io/-Social-links-profile/",
+    type: "Frontend Mentor",
   },
   {
     id: 3,
@@ -30,6 +34,7 @@ const projects = [
       "https://i.ibb.co/qkSRMBM/Screen-Shot-2024-12-28-at-3-44-05-PM.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/My-Portfolio",
     liveUrl: "https://fopeportfolio.vercel.app/",
+    type: "personal",
   },
   {
     id: 4,
@@ -39,6 +44,7 @@ const projects = [
     githubUrl:
       "https://github.com/FopefoluwaIkufisile/Newsletter-sign-up-form.git",
     liveUrl: "https://fopefoluwaikufisile.github.io/Newsletter-sign-up-form/",
+    type: "Frontend Mentor",
   },
   {
     id: 5,
@@ -46,6 +52,7 @@ const projects = [
     imageUrl: "https://i.ibb.co/gvVgCpG/Random-Joke.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/random-joke",
     liveUrl: "https://random-joke-fb89.onrender.com/",
+    type: "Personal",
   },
   {
     id: 6,
@@ -53,6 +60,7 @@ const projects = [
     imageUrl: "https://i.ibb.co/sbq9PfQ/Web-app-Picture.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/My-first-web-app",
     liveUrl: "https://blog-web-app-c60v.onrender.com",
+    type: "personal",
   },
   {
     id: 7,
@@ -62,6 +70,7 @@ const projects = [
     githubUrl:
       "https://github.com/FopefoluwaIkufisile/Four-card-feature-section",
     liveUrl: "https://fopefoluwaikufisile.github.io/Four-card-feature-section/",
+    type: "Frontend Mentor",
   },
   {
     id: 8,
@@ -72,6 +81,7 @@ const projects = [
       "https://github.com/FopefoluwaIkufisile/Product-preview-card-component",
     liveUrl:
       "https://fopefoluwaikufisile.github.io/Product-preview-card-component/",
+    type: "Frontend Mentor",
   },
   {
     id: 9,
@@ -82,6 +92,7 @@ const projects = [
       "https://github.com/FopefoluwaIkufisile/Intro-section-with-dropdown-navigation",
     liveUrl:
       "https://fopefoluwaikufisile.github.io/Intro-section-with-dropdown-navigation/",
+    type: "Frontend Mentor",
   },
   {
     id: 10,
@@ -90,6 +101,7 @@ const projects = [
       "https://i.ibb.co/wSLsRC8/Screen-Shot-2024-12-30-at-5-48-47-PM.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/Recipe-page",
     liveUrl: "https://fopefoluwaikufisile.github.io/Recipe-page/",
+    type: "Frontend Mentor",
   },
   {
     id: 11,
@@ -98,6 +110,7 @@ const projects = [
       "https://i.ibb.co/1dBBqS3/Screen-Shot-2024-12-30-at-5-53-46-PM.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/QR-code-component",
     liveUrl: "https://fopefoluwaikufisile.github.io/QR-code-component/",
+    type: "Frontend Mentor",
   },
   {
     id: 12,
@@ -106,6 +119,7 @@ const projects = [
       "https://i.ibb.co/yfTsXGH/Screen-Shot-2024-12-30-at-5-56-27-PM.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/Ping-coming-soon-page",
     liveUrl: "https://fopefoluwaikufisile.github.io/Ping-coming-soon-page/",
+    type: "Frontend Mentor",
   },
   {
     id: 13,
@@ -114,6 +128,7 @@ const projects = [
       "https://i.ibb.co/cXwBSJQ/Screen-Shot-2024-12-30-at-6-01-33-PM.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/Blog-preview-card-",
     liveUrl: "https://fopefoluwaikufisile.github.io/Blog-preview-card-/",
+    type: "Frontend Mentor",
   },
   {
     id: 14,
@@ -123,6 +138,7 @@ const projects = [
     githubUrl:
       "https://github.com/FopefoluwaIkufisile/Testimonials-Grid-Section",
     liveUrl: "https://fopefoluwaikufisile.github.io/Testimonials-Grid-Section/",
+    type: "Frontend Mentor",
   },
   {
     id: 15,
@@ -132,6 +148,7 @@ const projects = [
     githubUrl:
       "https://github.com/FopefoluwaIkufisile/Article-preview-component",
     liveUrl: "https://fopefoluwaikufisile.github.io/Article-preview-component/",
+    type: "Frontend Mentor",
   },
   {
     id: 16,
@@ -140,6 +157,7 @@ const projects = [
       "https://i.ibb.co/Y8T9f5J/Screen-Shot-2025-01-01-at-6-00-00-PM.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/Time-tracking-dashboard",
     liveUrl: "https://fopefoluwaikufisile.github.io/Time-tracking-dashboard/",
+    type: "Frontend Mentor",
   },
   {
     id: 17,
@@ -154,6 +172,7 @@ const projects = [
     imageUrl: "https://i.ibb.co/PZTR3STg/Screenshot-2025-03-03-at-22-45-25.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/HNG-Color-game",
     liveUrl: "https://fopefoluwaikufisile.github.io/HNG-Color-game/",
+    type: "personal",
   },
   {
     id: 19,
@@ -163,6 +182,7 @@ const projects = [
       "https://github.com/FopefoluwaIkufisile/HNG-text-processing-interface",
     liveUrl:
       "https://fopefoluwaikufisile.github.io/HNG-text-processing-interface/",
+    type: "personal",
   },
   {
     id: 20,
@@ -170,6 +190,7 @@ const projects = [
     imageUrl: "https://i.ibb.co/qLFdYWnd/Screenshot-2025-03-03-at-22-58-44.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/HNG-ticker-project",
     liveUrl: "https://fopefoluwaikufisile.github.io/HNG-ticker-project/",
+    type: "personal",
   },
   {
     id: 21,
@@ -180,6 +201,7 @@ const projects = [
       "https://github.com/FopefoluwaIkufisile/extensions-front-end-mentor",
     liveUrl:
       "https://fopefoluwaikufisile.github.io/extensions-front-end-mentor/",
+    type: "Frontend Mentor",
   },
   {
     id: 22,
@@ -189,6 +211,7 @@ const projects = [
     githubUrl:
       "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Accordion",
     liveUrl: "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Accordion/",
+    type: "Frontend Mentor",
   },
   {
     id: 23,
@@ -197,6 +220,7 @@ const projects = [
       "https://i.ibb.co/PvxbmYDQ/Screenshot-2025-03-31-at-2-01-32-AM.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/frontend-result-summary",
     liveUrl: "https://fopefoluwaikufisile.github.io/frontend-result-summary/",
+    type: "Frontend Mentor",
   },
   {
     id: 24,
@@ -205,6 +229,7 @@ const projects = [
       "https://i.ibb.co/7JG8bKWf/Screenshot-2025-03-31-at-2-03-18-AM.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/Review-Frontend-mentor",
     liveUrl: "https://fopefoluwaikufisile.github.io/Review-Frontend-mentor/",
+    type: "Frontend Mentor",
   },
   {
     id: 25,
@@ -213,6 +238,7 @@ const projects = [
       "https://i.ibb.co/d0Nr4rQQ/Screenshot-2025-03-31-at-2-05-03-AM.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/nft-frontend-mentor",
     liveUrl: "https://fopefoluwaikufisile.github.io/nft-frontend-mentor/",
+    type: "Frontend Mentor",
   },
   {
     id: 26,
@@ -223,6 +249,7 @@ const projects = [
       "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Order-summary-card",
     liveUrl:
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Order-summary-card/",
+    type: "Frontend Mentor",
   },
   {
     id: 27,
@@ -233,6 +260,7 @@ const projects = [
       "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Stats-preview-card-component",
     liveUrl:
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Stats-preview-card-component/",
+    type: "Frontend Mentor",
   },
   {
     id: 28,
@@ -243,6 +271,7 @@ const projects = [
       "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-3-column-preview-card-component",
     liveUrl:
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-3-column-preview-card-component/",
+    type: "Frontend Mentor",
   },
   {
     id: 29,
@@ -253,6 +282,7 @@ const projects = [
       "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Profile-card-component",
     liveUrl:
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Profile-card-component/",
+    type: "Frontend Mentor",
   },
   {
     id: 30,
@@ -263,6 +293,7 @@ const projects = [
       "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Social-proof-section",
     liveUrl:
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Social-proof-section/",
+    type: "Frontend Mentor",
   },
   {
     id: 31,
@@ -273,6 +304,7 @@ const projects = [
       "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Base-Apparel-coming-soon-page",
     liveUrl:
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Base-Apparel-coming-soon-page/",
+    type: "Frontend Mentor",
   },
   {
     id: 32,
@@ -283,6 +315,7 @@ const projects = [
       "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Single-Price-Grid-Component",
     liveUrl:
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Single-Price-Grid-Component/",
+    type: "Frontend Mentor",
   },
   {
     id: 33,
@@ -293,6 +326,7 @@ const projects = [
       "https://github.com/FopefoluwaIkufisile/-Frontend-Mentor-Huddle-landing-page-with-single-introductory-section",
     liveUrl:
       "https://fopefoluwaikufisile.github.io/-Frontend-Mentor-Huddle-landing-page-with-single-introductory-section/",
+    type: "Frontend Mentor",
   },
   {
     id: 34,
@@ -301,14 +335,18 @@ const projects = [
       "https://i.ibb.co/N6Md1CcH/Screenshot-2025-03-31-at-2-26-38-AM.png",
     githubUrl: "https://github.com/hngprojects/shopdesk-fe",
     liveUrl: "https://shopdesk.im/",
+    type: "personal",
   },
   {
     id: 35,
     title: "Conference Ticket Generator",
     imageUrl:
       "https://i.ibb.co/GQTpzjzP/Screenshot-2025-04-04-at-10-31-03-AM.png",
-    githubUrl: "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Conference-ticket-generator",
-    liveUrl: "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Conference-ticket-generator/",
+    githubUrl:
+      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Conference-ticket-generator",
+    liveUrl:
+      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Conference-ticket-generator/",
+    type: "Frontend Mentor",
   },
   {
     id: 36,
@@ -317,18 +355,23 @@ const projects = [
       "https://i.ibb.co/zVXP2VgY/Screenshot-2025-04-04-at-9-07-04-PM.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/Frontend-bento-grid",
     liveUrl: "https://fopefoluwaikufisile.github.io/Frontend-bento-grid/",
+    type: "Frontend Mentor",
   },
   {
     id: 37,
     title: "Product Cart list",
     imageUrl:
       " https://i.ibb.co/RGybrNKz/Screenshot-2025-04-05-at-6-08-29-AM.png",
-    githubUrl: "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Product-list-with-cart",
-    liveUrl: "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Product-list-with-cart/",
-  }
- 
+    githubUrl:
+      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Product-list-with-cart",
+    liveUrl:
+      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Product-list-with-cart/",
+    type: "Frontend Mentor",
+  },
 ];
-
+document.querySelector(".dark-mode").addEventListener("click", ()=>{
+  document.querySelector("body").classList.toggle("dark")
+})
 menu.onclick = () => {
   menu.classList.toggle("fa-times");
   header.classList.toggle("active");
@@ -340,10 +383,10 @@ window.onscroll = () => {
   menu.classList.remove("fa-times");
   header.classList.remove("active");
 };
-let sliceEnd = 9;
 
-const renderProjects = (start, end) => {
-  return projects
+let sliceEnd = 9;
+const renderProjects = (start, end, filteredProjects = projects) => {
+  return filteredProjects
     .slice(start, end)
     .map(
       (project) => `
@@ -372,5 +415,20 @@ document.querySelector(".load").addEventListener("click", (e) => {
     document.querySelector(".load").textContent = "Thats all";
   }
 });
+
+filterBtn.addEventListener("click", (e) => {
+  console.log(`clicked`)
+  e.preventDefault();
+  const filterType = selectBtn.value; 
+  filterProjects(filterType);
+});
+
+const filterProjects = (type) => {
+  const filteredProjects = projects.filter(
+    (project) => project.type === type || type === "all"
+  );
+  projectContainer.innerHTML = renderProjects(0, filteredProjects.length, filteredProjects);
+  document.querySelector(".load").style.display = "none"
+};
 
 projectContainer.innerHTML = renderProjects(0, sliceEnd);
