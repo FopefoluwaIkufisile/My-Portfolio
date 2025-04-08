@@ -421,7 +421,7 @@ const renderProjects = (start, end, filteredProjects = projects) => {
 document.querySelector(".load").addEventListener("click", (e) => {
   e.preventDefault();
   if (sliceEnd < projects.length) {
-    sliceEnd += 3;
+    sliceEnd += 9;
     projectContainer.innerHTML = renderProjects(0, sliceEnd);
   } else {
     sliceEnd = projects.length;
