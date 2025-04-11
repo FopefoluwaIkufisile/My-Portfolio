@@ -379,6 +379,17 @@ const projects = [
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Mortgage-repayment-calculator/",
     type: "Frontend Mentor",
   },
+  {
+    id: 38,
+    title: "Frontend Mentor | Contact form",
+    imageUrl:
+      " https://i.ibb.co/PGHfRGYD/Screenshot-2025-04-11-at-6-10-37-PM.png",
+    githubUrl:
+      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Contact-form",
+    liveUrl:
+      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Contact-form/",
+    type: "Frontend Mentor",
+  },
 ];
 document.querySelector(".dark-mode").addEventListener("click", () => {
   document.querySelector("body").classList.toggle("dark");
