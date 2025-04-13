@@ -401,6 +401,17 @@ const projects = [
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Age-calculator-app/",
     type: "Frontend Mentor",
   },
+  {
+    id: 41,
+    title: "Frontend Mentor | News homepage",
+    imageUrl:
+      "https://i.ibb.co/pj2sTXYF/Screenshot-2025-04-13-at-8-18-52-AM.png",
+    githubUrl:
+      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-News-homepage",
+    liveUrl:
+      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-News-homepage/",
+    type: "Frontend Mentor",
+  },
 ];
 document.querySelector(".dark-mode").addEventListener("click", () => {
   document.querySelector("body").classList.toggle("dark");
