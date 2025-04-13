@@ -380,7 +380,7 @@ const projects = [
     type: "Frontend Mentor",
   },
   {
-    id: 38,
+    id: 39,
     title: "Frontend Mentor | Contact form",
     imageUrl:
       " https://i.ibb.co/PGHfRGYD/Screenshot-2025-04-11-at-6-10-37-PM.png",
@@ -388,6 +388,17 @@ const projects = [
       "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Contact-form",
     liveUrl:
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Contact-form/",
+    type: "Frontend Mentor",
+  },
+  {
+    id: 40,
+    title: "Frontend Mentor | Age calculator app",
+    imageUrl:
+      "https://i.ibb.co/ycR07s9S/Screenshot-2025-04-12-at-9-00-43-PM.png",
+    githubUrl:
+      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Age-calculator-app",
+    liveUrl:
+      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Age-calculator-app/",
     type: "Frontend Mentor",
   },
 ];
@@ -442,9 +453,9 @@ document.querySelector(".load").addEventListener("click", (e) => {
 });
 
 filterBtn.addEventListener("click", (e) => {
-  console.log(`clicked`)
+  console.log(`clicked`);
   e.preventDefault();
-  const filterType = selectBtn.value; 
+  const filterType = selectBtn.value;
   filterProjects(filterType);
 });
 
@@ -452,8 +463,12 @@ const filterProjects = (type) => {
   const filteredProjects = projects.filter(
     (project) => project.type === type || type === "all"
   );
-  projectContainer.innerHTML = renderProjects(0, filteredProjects.length, filteredProjects);
-  document.querySelector(".load").style.display = "none"
+  projectContainer.innerHTML = renderProjects(
+    0,
+    filteredProjects.length,
+    filteredProjects
+  );
+  document.querySelector(".load").style.display = "none";
 };
 
 projectContainer.innerHTML = renderProjects(0, sliceEnd);
