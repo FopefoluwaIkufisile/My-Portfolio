@@ -423,6 +423,17 @@ const projects = [
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Notifications-page/",
     type: "Frontend Mentor",
   },
+  {
+    id: 43,
+    title: "Frontend Mentor | Interactive card details form",
+    imageUrl:
+      "https://i.ibb.co/KpLgTg1x/Screenshot-2025-04-15-at-5-59-52-PM.png",
+    githubUrl:
+      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Interactive-card-details-form",
+    liveUrl:
+      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Interactive-card-details-form/",
+    type: "Frontend Mentor",
+  },
 ];
 document.querySelector(".dark-mode").addEventListener("click", () => {
   document.querySelector("body").classList.toggle("dark");
