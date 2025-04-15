@@ -412,6 +412,17 @@ const projects = [
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-News-homepage/",
     type: "Frontend Mentor",
   },
+  {
+    id: 42,
+    title: "Frontend Mentor | Notifications page",
+    imageUrl:
+      "https://i.ibb.co/fG4rV8yd/Screenshot-2025-04-14-at-8-56-22-PM.png",
+    githubUrl:
+      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Notifications-page",
+    liveUrl:
+      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Notifications-page/",
+    type: "Frontend Mentor",
+  },
 ];
 document.querySelector(".dark-mode").addEventListener("click", () => {
   document.querySelector("body").classList.toggle("dark");
