@@ -434,6 +434,17 @@ const projects = [
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Interactive-card-details-form/",
     type: "Frontend Mentor",
   },
+  {
+    id: 44,
+    title: "Frontend Mentor | Expenses chart component",
+    imageUrl:
+      "https://i.ibb.co/ZRm32knB/Screenshot-2025-04-17-at-1-08-45-AM.png",
+    githubUrl:
+      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Expenses-chart-component",
+    liveUrl:
+      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Expenses-chart-component/",
+    type: "Frontend Mentor",
+  },
 ];
 document.querySelector(".dark-mode").addEventListener("click", () => {
   document.querySelector("body").classList.toggle("dark");
