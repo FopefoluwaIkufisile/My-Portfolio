@@ -445,6 +445,17 @@ const projects = [
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Expenses-chart-component/",
     type: "Frontend Mentor",
   },
+  {
+    id: 45,
+    title: "Frontend Mentor | Advice generator app",
+    imageUrl:
+      "https://i.ibb.co/93Tp8m0k/Screenshot-2025-04-17-at-7-03-06-PM.png",
+    githubUrl:
+      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Advice-generator-app",
+    liveUrl:
+      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Advice-generator-app/",
+    type: "Frontend Mentor",
+  },
 ];
 document.querySelector(".dark-mode").addEventListener("click", () => {
   document.querySelector("body").classList.toggle("dark");
