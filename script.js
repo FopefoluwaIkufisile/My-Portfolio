@@ -456,6 +456,17 @@ const projects = [
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Advice-generator-app/",
     type: "Frontend Mentor",
   },
+  {
+    id: 46,
+    title: "Frontend Mentor | Sunnyside agency landing page",
+    imageUrl:
+      "https://i.ibb.co/Rp1spX7s/Screenshot-2025-04-18-at-10-40-14-PM.png",
+    githubUrl:
+      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Sunnyside-agency-landing-page",
+    liveUrl:
+      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Sunnyside-agency-landing-page/",
+    type: "Frontend Mentor",
+  },
 ];
 document.querySelector(".dark-mode").addEventListener("click", () => {
   document.querySelector("body").classList.toggle("dark");
