@@ -467,6 +467,17 @@ const projects = [
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Sunnyside-agency-landing-page/",
     type: "Frontend Mentor",
   },
+  {
+    id: 47,
+    title: "Frontend Mentor | [Blogr]",
+    imageUrl:
+    "https://i.ibb.co/YFmNzcLn/Screenshot-2025-04-20-at-12-12-53-AM.png",
+    githubUrl:
+      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Blogr-",
+    liveUrl:
+      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Blogr-/",
+    type: "Frontend Mentor",
+  },
 ];
 document.querySelector(".dark-mode").addEventListener("click", () => {
   document.querySelector("body").classList.toggle("dark");
