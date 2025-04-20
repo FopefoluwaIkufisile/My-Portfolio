@@ -478,6 +478,17 @@ const projects = [
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Blogr-/",
     type: "Frontend Mentor",
   },
+  {
+    id: 48,
+    title: "Frontend Mentor | Crowdfunding product page",
+    imageUrl:
+    "https://i.ibb.co/B2TJmwdp/Screenshot-2025-04-20-at-6-10-37-PM.png",
+    githubUrl:
+      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Crowdfunding-product-page",
+    liveUrl:
+      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Crowdfunding-product-page/",
+    type: "Frontend Mentor",
+  },
 ];
 document.querySelector(".dark-mode").addEventListener("click", () => {
   document.querySelector("body").classList.toggle("dark");
