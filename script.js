@@ -489,6 +489,17 @@ const projects = [
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Crowdfunding-product-page/",
     type: "Frontend Mentor",
   },
+  {
+    id: 49,
+    title: "Frontend Mentor | Interactive pricing component",
+    imageUrl:
+    "https://i.ibb.co/Q73JFWz0/Screenshot-2025-04-22-at-12-51-12-AM.png",
+    githubUrl:
+      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Interactive-pricing-component",
+    liveUrl:
+      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Interactive-pricing-component/",
+    type: "Frontend Mentor",
+  },
 ];
 document.querySelector(".dark-mode").addEventListener("click", () => {
   document.querySelector("body").classList.toggle("dark");
