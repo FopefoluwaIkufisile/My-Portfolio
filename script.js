@@ -500,6 +500,17 @@ const projects = [
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Interactive-pricing-component/",
     type: "Frontend Mentor",
   },
+  {
+    id: 50,
+    title: "Tip Calculator App",
+    imageUrl:
+    "https://i.ibb.co/zTnDdVbb/Screenshot-2025-04-23-at-12-55-48-PM.png",
+    githubUrl:
+      "https://github.com/FopefoluwaIkufisile/Tip-Calculator-",
+    liveUrl:
+      "https://fopefoluwaikufisile.github.io/Tip-Calculator-/",
+    type: "Frontend Mentor",
+  },
 ];
 document.querySelector(".dark-mode").addEventListener("click", () => {
   document.querySelector("body").classList.toggle("dark");
