@@ -18,27 +18,27 @@ const sendEmail = () => {
 document.querySelector("#btnsend").addEventListener("click", sendEmail);
 
 const projects = [
-  {
-    id: 1,
-    title: "Landing Page with sign up",
-    imageUrl:
-      "https://i.ibb.co/64CKC4J/Screen-Shot-2024-12-28-at-3-51-38-PM.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/Intro-component-with-sign-up-form.git",
-    liveUrl:
-      "https://fopefoluwaikufisile.github.io/Intro-component-with-sign-up-form/",
-    type: "Frontend Mentor",
-  },
-  {
-    id: 2,
-    title: "Social Links Profile Website",
-    imageUrl:
-      "https://i.ibb.co/Km0cGwh/Screen-Shot-2024-12-28-at-3-55-31-PM.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/-Social-links-profile.git",
-    liveUrl: "https://fopefoluwaikufisile.github.io/-Social-links-profile/",
-    type: "Frontend Mentor",
-  },
+  // {
+  //   id: 1,
+  //   title: "Landing Page with sign up",
+  //   imageUrl:
+  //     "https://i.ibb.co/64CKC4J/Screen-Shot-2024-12-28-at-3-51-38-PM.png",
+  //   githubUrl:
+  //     "https://github.com/FopefoluwaIkufisile/Intro-component-with-sign-up-form.git",
+  //   liveUrl:
+  //     "https://fopefoluwaikufisile.github.io/Intro-component-with-sign-up-form/",
+  //   type: "Frontend Mentor",
+  // },
+  // {
+  //   id: 2,
+  //   title: "Social Links Profile Website",
+  //   imageUrl:
+  //     "https://i.ibb.co/Km0cGwh/Screen-Shot-2024-12-28-at-3-55-31-PM.png",
+  //   githubUrl:
+  //     "https://github.com/FopefoluwaIkufisile/-Social-links-profile.git",
+  //   liveUrl: "https://fopefoluwaikufisile.github.io/-Social-links-profile/",
+  //   type: "Frontend Mentor",
+  // },
   {
     id: 3,
     title: "My Portfolio 😁",
@@ -48,32 +48,32 @@ const projects = [
     liveUrl: "https://fopeportfolio.vercel.app/",
     type: "personal",
   },
-  {
-    id: 4,
-    title: "Newsletter Sign up form",
-    imageUrl:
-      "https://i.ibb.co/NNhzKFd/Screen-Shot-2024-12-28-at-3-59-25-PM.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/Newsletter-sign-up-form.git",
-    liveUrl: "https://fopefoluwaikufisile.github.io/Newsletter-sign-up-form/",
-    type: "Frontend Mentor",
-  },
+  // {
+  //   id: 4,
+  //   title: "Newsletter Sign up form",
+  //   imageUrl:
+  //     "https://i.ibb.co/NNhzKFd/Screen-Shot-2024-12-28-at-3-59-25-PM.png",
+  //   githubUrl:
+  //     "https://github.com/FopefoluwaIkufisile/Newsletter-sign-up-form.git",
+  //   liveUrl: "https://fopefoluwaikufisile.github.io/Newsletter-sign-up-form/",
+  //   type: "Frontend Mentor",
+  // },
   {
     id: 5,
     title: "Random Joke Generator",
     imageUrl: "https://i.ibb.co/gvVgCpG/Random-Joke.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/random-joke",
     liveUrl: "https://random-joke-fb89.onrender.com/",
-    type: "Personal",
-  },
-  {
-    id: 6,
-    title: "My First Web App",
-    imageUrl: "https://i.ibb.co/sbq9PfQ/Web-app-Picture.png",
-    githubUrl: "https://github.com/FopefoluwaIkufisile/My-first-web-app",
-    liveUrl: "https://blog-web-app-c60v.onrender.com",
     type: "personal",
   },
+  // {
+  //   id: 6,
+  //   title: "My First Web App",
+  //   imageUrl: "https://i.ibb.co/sbq9PfQ/Web-app-Picture.png",
+  //   githubUrl: "https://github.com/FopefoluwaIkufisile/My-first-web-app",
+  //   liveUrl: "https://blog-web-app-c60v.onrender.com",
+  //   type: "personal",
+  // },
   {
     id: 7,
     title: "Four card feature section",
@@ -84,28 +84,28 @@ const projects = [
     liveUrl: "https://fopefoluwaikufisile.github.io/Four-card-feature-section/",
     type: "Frontend Mentor",
   },
-  {
-    id: 8,
-    title: "Product Preview Card Component",
-    imageUrl:
-      "https://i.ibb.co/rQMc2pG/Screen-Shot-2024-12-30-at-5-43-30-PM.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/Product-preview-card-component",
-    liveUrl:
-      "https://fopefoluwaikufisile.github.io/Product-preview-card-component/",
-    type: "Frontend Mentor",
-  },
-  {
-    id: 9,
-    title: "Intro Section with drop down navigation",
-    imageUrl:
-      "https://i.ibb.co/Pr6rJ5K/Screen-Shot-2024-12-30-at-5-46-08-PM.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/Intro-section-with-dropdown-navigation",
-    liveUrl:
-      "https://fopefoluwaikufisile.github.io/Intro-section-with-dropdown-navigation/",
-    type: "Frontend Mentor",
-  },
+  // {
+  //   id: 8,
+  //   title: "Product Preview Card Component",
+  //   imageUrl:
+  //     "https://i.ibb.co/rQMc2pG/Screen-Shot-2024-12-30-at-5-43-30-PM.png",
+  //   githubUrl:
+  //     "https://github.com/FopefoluwaIkufisile/Product-preview-card-component",
+  //   liveUrl:
+  //     "https://fopefoluwaikufisile.github.io/Product-preview-card-component/",
+  //   type: "Frontend Mentor",
+  // },
+  // {
+  //   id: 9,
+  //   title: "Intro Section with drop down navigation",
+  //   imageUrl:
+  //     "https://i.ibb.co/Pr6rJ5K/Screen-Shot-2024-12-30-at-5-46-08-PM.png",
+  //   githubUrl:
+  //     "https://github.com/FopefoluwaIkufisile/Intro-section-with-dropdown-navigation",
+  //   liveUrl:
+  //     "https://fopefoluwaikufisile.github.io/Intro-section-with-dropdown-navigation/",
+  //   type: "Frontend Mentor",
+  // },
   {
     id: 10,
     title: "Recipe Page",
@@ -115,33 +115,33 @@ const projects = [
     liveUrl: "https://fopefoluwaikufisile.github.io/Recipe-page/",
     type: "Frontend Mentor",
   },
-  {
-    id: 11,
-    title: "Qr code Compoment",
-    imageUrl:
-      "https://i.ibb.co/1dBBqS3/Screen-Shot-2024-12-30-at-5-53-46-PM.png",
-    githubUrl: "https://github.com/FopefoluwaIkufisile/QR-code-component",
-    liveUrl: "https://fopefoluwaikufisile.github.io/QR-code-component/",
-    type: "Frontend Mentor",
-  },
-  {
-    id: 12,
-    title: "Ping Coming Soon Page",
-    imageUrl:
-      "https://i.ibb.co/yfTsXGH/Screen-Shot-2024-12-30-at-5-56-27-PM.png",
-    githubUrl: "https://github.com/FopefoluwaIkufisile/Ping-coming-soon-page",
-    liveUrl: "https://fopefoluwaikufisile.github.io/Ping-coming-soon-page/",
-    type: "Frontend Mentor",
-  },
-  {
-    id: 13,
-    title: "Blog Preview Card",
-    imageUrl:
-      "https://i.ibb.co/cXwBSJQ/Screen-Shot-2024-12-30-at-6-01-33-PM.png",
-    githubUrl: "https://github.com/FopefoluwaIkufisile/Blog-preview-card-",
-    liveUrl: "https://fopefoluwaikufisile.github.io/Blog-preview-card-/",
-    type: "Frontend Mentor",
-  },
+  // {
+  //   id: 11,
+  //   title: "Qr code Compoment",
+  //   imageUrl:
+  //     "https://i.ibb.co/1dBBqS3/Screen-Shot-2024-12-30-at-5-53-46-PM.png",
+  //   githubUrl: "https://github.com/FopefoluwaIkufisile/QR-code-component",
+  //   liveUrl: "https://fopefoluwaikufisile.github.io/QR-code-component/",
+  //   type: "Frontend Mentor",
+  // },
+  // {
+  //   id: 12,
+  //   title: "Ping Coming Soon Page",
+  //   imageUrl:
+  //     "https://i.ibb.co/yfTsXGH/Screen-Shot-2024-12-30-at-5-56-27-PM.png",
+  //   githubUrl: "https://github.com/FopefoluwaIkufisile/Ping-coming-soon-page",
+  //   liveUrl: "https://fopefoluwaikufisile.github.io/Ping-coming-soon-page/",
+  //   type: "Frontend Mentor",
+  // },
+  // {
+  //   id: 13,
+  //   title: "Blog Preview Card",
+  //   imageUrl:
+  //     "https://i.ibb.co/cXwBSJQ/Screen-Shot-2024-12-30-at-6-01-33-PM.png",
+  //   githubUrl: "https://github.com/FopefoluwaIkufisile/Blog-preview-card-",
+  //   liveUrl: "https://fopefoluwaikufisile.github.io/Blog-preview-card-/",
+  //   type: "Frontend Mentor",
+  // },
   {
     id: 14,
     title: "Testimonial Grid Section",
@@ -152,16 +152,16 @@ const projects = [
     liveUrl: "https://fopefoluwaikufisile.github.io/Testimonials-Grid-Section/",
     type: "Frontend Mentor",
   },
-  {
-    id: 15,
-    title: "Article Preview Component",
-    imageUrl:
-      "https://i.ibb.co/BLx4xbQ/Screen-Shot-2025-01-01-at-5-59-38-PM.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/Article-preview-component",
-    liveUrl: "https://fopefoluwaikufisile.github.io/Article-preview-component/",
-    type: "Frontend Mentor",
-  },
+  // {
+  //   id: 15,
+  //   title: "Article Preview Component",
+  //   imageUrl:
+  //     "https://i.ibb.co/BLx4xbQ/Screen-Shot-2025-01-01-at-5-59-38-PM.png",
+  //   githubUrl:
+  //     "https://github.com/FopefoluwaIkufisile/Article-preview-component",
+  //   liveUrl: "https://fopefoluwaikufisile.github.io/Article-preview-component/",
+  //   type: "Frontend Mentor",
+  // },
   {
     id: 16,
     title: "Time Tracking Dashboard",
@@ -177,6 +177,7 @@ const projects = [
     imageUrl: "https://i.ibb.co/k2p6PNpt/Screenshot-2025-03-03-at-22-32-33.png",
     githubUrl: "https://github.com/FopefoluwaIkufisile/Palindrome-Checker",
     liveUrl: "https://fopefoluwaikufisile.github.io/Palindrome-Checker/",
+    type: "personal"
   },
   {
     id: 18,
@@ -186,16 +187,16 @@ const projects = [
     liveUrl: "https://fopefoluwaikufisile.github.io/HNG-Color-game/",
     type: "personal",
   },
-  {
-    id: 19,
-    title: "AI Text Processing Interface",
-    imageUrl: "https://i.ibb.co/KjL0DvNt/Screenshot-2025-03-03-at-22-56-18.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/HNG-text-processing-interface",
-    liveUrl:
-      "https://fopefoluwaikufisile.github.io/HNG-text-processing-interface/",
-    type: "personal",
-  },
+  // {
+  //   id: 19,
+  //   title: "AI Text Processing Interface",
+  //   imageUrl: "https://i.ibb.co/KjL0DvNt/Screenshot-2025-03-03-at-22-56-18.png",
+  //   githubUrl:
+  //     "https://github.com/FopefoluwaIkufisile/HNG-text-processing-interface",
+  //   liveUrl:
+  //     "https://fopefoluwaikufisile.github.io/HNG-text-processing-interface/",
+  //   type: "personal",
+  // },
   {
     id: 20,
     title: "Event Ticket Generator",
@@ -225,110 +226,110 @@ const projects = [
     liveUrl: "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Accordion/",
     type: "Frontend Mentor",
   },
-  {
-    id: 23,
-    title: "Result Summary Component",
-    imageUrl:
-      "https://i.ibb.co/PvxbmYDQ/Screenshot-2025-03-31-at-2-01-32-AM.png",
-    githubUrl: "https://github.com/FopefoluwaIkufisile/frontend-result-summary",
-    liveUrl: "https://fopefoluwaikufisile.github.io/frontend-result-summary/",
-    type: "Frontend Mentor",
-  },
-  {
-    id: 24,
-    title: "Interactive Rating Component",
-    imageUrl:
-      "https://i.ibb.co/7JG8bKWf/Screenshot-2025-03-31-at-2-03-18-AM.png",
-    githubUrl: "https://github.com/FopefoluwaIkufisile/Review-Frontend-mentor",
-    liveUrl: "https://fopefoluwaikufisile.github.io/Review-Frontend-mentor/",
-    type: "Frontend Mentor",
-  },
-  {
-    id: 25,
-    title: "NFT Card Component",
-    imageUrl:
-      "https://i.ibb.co/d0Nr4rQQ/Screenshot-2025-03-31-at-2-05-03-AM.png",
-    githubUrl: "https://github.com/FopefoluwaIkufisile/nft-frontend-mentor",
-    liveUrl: "https://fopefoluwaikufisile.github.io/nft-frontend-mentor/",
-    type: "Frontend Mentor",
-  },
-  {
-    id: 26,
-    title: "Order Summary Component",
-    imageUrl:
-      "https://i.ibb.co/wZSQJbzB/Screenshot-2025-03-31-at-2-07-32-AM.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Order-summary-card",
-    liveUrl:
-      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Order-summary-card/",
-    type: "Frontend Mentor",
-  },
-  {
-    id: 27,
-    title: "Stats Preview Component",
-    imageUrl:
-      "https://i.ibb.co/h1FwKNmH/Screenshot-2025-03-31-at-2-09-05-AM.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Stats-preview-card-component",
-    liveUrl:
-      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Stats-preview-card-component/",
-    type: "Frontend Mentor",
-  },
-  {
-    id: 28,
-    title: "3 Column Component",
-    imageUrl:
-      "https://i.ibb.co/LzGX9Jzv/Screenshot-2025-03-31-at-2-17-44-AM.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-3-column-preview-card-component",
-    liveUrl:
-      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-3-column-preview-card-component/",
-    type: "Frontend Mentor",
-  },
-  {
-    id: 29,
-    title: "Profile Component",
-    imageUrl:
-      "https://i.ibb.co/bM4bRqmL/Screenshot-2025-03-31-at-2-19-50-AM.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Profile-card-component",
-    liveUrl:
-      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Profile-card-component/",
-    type: "Frontend Mentor",
-  },
-  {
-    id: 30,
-    title: "Social Proof Component",
-    imageUrl:
-      "https://i.ibb.co/QvryDy7R/Screenshot-2025-03-31-at-2-21-05-AM.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Social-proof-section",
-    liveUrl:
-      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Social-proof-section/",
-    type: "Frontend Mentor",
-  },
-  {
-    id: 31,
-    title: "Base Apparel Page",
-    imageUrl:
-      "https://i.ibb.co/bMC36qMG/Screenshot-2025-03-31-at-2-22-25-AM.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Base-Apparel-coming-soon-page",
-    liveUrl:
-      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Base-Apparel-coming-soon-page/",
-    type: "Frontend Mentor",
-  },
-  {
-    id: 32,
-    title: "Price Grid Component",
-    imageUrl:
-      "https://i.ibb.co/JRsBYSNw/Screenshot-2025-03-31-at-2-24-03-AM.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Single-Price-Grid-Component",
-    liveUrl:
-      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Single-Price-Grid-Component/",
-    type: "Frontend Mentor",
-  },
+  // {
+  //   id: 23,
+  //   title: "Result Summary Component",
+  //   imageUrl:
+  //     "https://i.ibb.co/PvxbmYDQ/Screenshot-2025-03-31-at-2-01-32-AM.png",
+  //   githubUrl: "https://github.com/FopefoluwaIkufisile/frontend-result-summary",
+  //   liveUrl: "https://fopefoluwaikufisile.github.io/frontend-result-summary/",
+  //   type: "Frontend Mentor",
+  // },
+  // {
+  //   id: 24,
+  //   title: "Interactive Rating Component",
+  //   imageUrl:
+  //     "https://i.ibb.co/7JG8bKWf/Screenshot-2025-03-31-at-2-03-18-AM.png",
+  //   githubUrl: "https://github.com/FopefoluwaIkufisile/Review-Frontend-mentor",
+  //   liveUrl: "https://fopefoluwaikufisile.github.io/Review-Frontend-mentor/",
+  //   type: "Frontend Mentor",
+  // },
+  // {
+  //   id: 25,
+  //   title: "NFT Card Component",
+  //   imageUrl:
+  //     "https://i.ibb.co/d0Nr4rQQ/Screenshot-2025-03-31-at-2-05-03-AM.png",
+  //   githubUrl: "https://github.com/FopefoluwaIkufisile/nft-frontend-mentor",
+  //   liveUrl: "https://fopefoluwaikufisile.github.io/nft-frontend-mentor/",
+  //   type: "Frontend Mentor",
+  // },
+  // {
+  //   id: 26,
+  //   title: "Order Summary Component",
+  //   imageUrl:
+  //     "https://i.ibb.co/wZSQJbzB/Screenshot-2025-03-31-at-2-07-32-AM.png",
+  //   githubUrl:
+  //     "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Order-summary-card",
+  //   liveUrl:
+  //     "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Order-summary-card/",
+  //   type: "Frontend Mentor",
+  // },
+  // {
+  //   id: 27,
+  //   title: "Stats Preview Component",
+  //   imageUrl:
+  //     "https://i.ibb.co/h1FwKNmH/Screenshot-2025-03-31-at-2-09-05-AM.png",
+  //   githubUrl:
+  //     "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Stats-preview-card-component",
+  //   liveUrl:
+  //     "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Stats-preview-card-component/",
+  //   type: "Frontend Mentor",
+  // },
+  // {
+  //   id: 28,
+  //   title: "3 Column Component",
+  //   imageUrl:
+  //     "https://i.ibb.co/LzGX9Jzv/Screenshot-2025-03-31-at-2-17-44-AM.png",
+  //   githubUrl:
+  //     "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-3-column-preview-card-component",
+  //   liveUrl:
+  //     "https://fopefoluwaikufisile.github.io/Frontend-Mentor-3-column-preview-card-component/",
+  //   type: "Frontend Mentor",
+  // },
+  // {
+  //   id: 29,
+  //   title: "Profile Component",
+  //   imageUrl:
+  //     "https://i.ibb.co/bM4bRqmL/Screenshot-2025-03-31-at-2-19-50-AM.png",
+  //   githubUrl:
+  //     "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Profile-card-component",
+  //   liveUrl:
+  //     "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Profile-card-component/",
+  //   type: "Frontend Mentor",
+  // },
+  // {
+  //   id: 30,
+  //   title: "Social Proof Component",
+  //   imageUrl:
+  //     "https://i.ibb.co/QvryDy7R/Screenshot-2025-03-31-at-2-21-05-AM.png",
+  //   githubUrl:
+  //     "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Social-proof-section",
+  //   liveUrl:
+  //     "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Social-proof-section/",
+  //   type: "Frontend Mentor",
+  // },
+  // {
+  //   id: 31,
+  //   title: "Base Apparel Page",
+  //   imageUrl:
+  //     "https://i.ibb.co/bMC36qMG/Screenshot-2025-03-31-at-2-22-25-AM.png",
+  //   githubUrl:
+  //     "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Base-Apparel-coming-soon-page",
+  //   liveUrl:
+  //     "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Base-Apparel-coming-soon-page/",
+  //   type: "Frontend Mentor",
+  // },
+  // {
+  //   id: 32,
+  //   title: "Price Grid Component",
+  //   imageUrl:
+  //     "https://i.ibb.co/JRsBYSNw/Screenshot-2025-03-31-at-2-24-03-AM.png",
+  //   githubUrl:
+  //     "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Single-Price-Grid-Component",
+  //   liveUrl:
+  //     "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Single-Price-Grid-Component/",
+  //   type: "Frontend Mentor",
+  // },
   {
     id: 33,
     title: "Huddle Landing Page",
@@ -468,17 +469,17 @@ const projects = [
       "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Advice-generator-app/",
     type: "Frontend Mentor",
   },
-  {
-    id: 46,
-    title: "Frontend Mentor | Sunnyside agency landing page",
-    imageUrl:
-      "https://i.ibb.co/Rp1spX7s/Screenshot-2025-04-18-at-10-40-14-PM.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Sunnyside-agency-landing-page",
-    liveUrl:
-      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Sunnyside-agency-landing-page/",
-    type: "Frontend Mentor",
-  },
+  // {
+  //   id: 46,
+  //   title: "Frontend Mentor | Sunnyside agency landing page",
+  //   imageUrl:
+  //     "https://i.ibb.co/Rp1spX7s/Screenshot-2025-04-18-at-10-40-14-PM.png",
+  //   githubUrl:
+  //     "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Sunnyside-agency-landing-page",
+  //   liveUrl:
+  //     "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Sunnyside-agency-landing-page/",
+  //   type: "Frontend Mentor",
+  // },
   {
     id: 47,
     title: "Frontend Mentor | [Blogr]",
