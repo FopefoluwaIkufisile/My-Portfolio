@@ -5,6 +5,18 @@ let projectContainer = document.querySelector(".projects-box");
 const filterBtn = document.querySelector(".filter");
 const selectBtn = document.querySelector(".select");
 
+const sendEmail = () => {
+  let params = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    message: document.getElementById("message").value,
+    number: document.getElementById("number").value,
+  };
+
+  emailjs.send("contact_service", "contact_form", params).then(alert("Success!"));
+};
+document.querySelector("#btnsend").addEventListener("click", sendEmail);
+
 const projects = [
   {
     id: 1,
@@ -471,18 +483,16 @@ const projects = [
     id: 47,
     title: "Frontend Mentor | [Blogr]",
     imageUrl:
-    "https://i.ibb.co/YFmNzcLn/Screenshot-2025-04-20-at-12-12-53-AM.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Blogr-",
-    liveUrl:
-      "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Blogr-/",
+      "https://i.ibb.co/YFmNzcLn/Screenshot-2025-04-20-at-12-12-53-AM.png",
+    githubUrl: "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Blogr-",
+    liveUrl: "https://fopefoluwaikufisile.github.io/Frontend-Mentor-Blogr-/",
     type: "Frontend Mentor",
   },
   {
     id: 48,
     title: "Frontend Mentor | Crowdfunding product page",
     imageUrl:
-    "https://i.ibb.co/B2TJmwdp/Screenshot-2025-04-20-at-6-10-37-PM.png",
+      "https://i.ibb.co/B2TJmwdp/Screenshot-2025-04-20-at-6-10-37-PM.png",
     githubUrl:
       "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Crowdfunding-product-page",
     liveUrl:
@@ -493,7 +503,7 @@ const projects = [
     id: 49,
     title: "Frontend Mentor | Interactive pricing component",
     imageUrl:
-    "https://i.ibb.co/Q73JFWz0/Screenshot-2025-04-22-at-12-51-12-AM.png",
+      "https://i.ibb.co/Q73JFWz0/Screenshot-2025-04-22-at-12-51-12-AM.png",
     githubUrl:
       "https://github.com/FopefoluwaIkufisile/Frontend-Mentor-Interactive-pricing-component",
     liveUrl:
@@ -504,12 +514,19 @@ const projects = [
     id: 50,
     title: "Tip Calculator App",
     imageUrl:
-    "https://i.ibb.co/zTnDdVbb/Screenshot-2025-04-23-at-12-55-48-PM.png",
-    githubUrl:
-      "https://github.com/FopefoluwaIkufisile/Tip-Calculator-",
-    liveUrl:
-      "https://fopefoluwaikufisile.github.io/Tip-Calculator-/",
+      "https://i.ibb.co/zTnDdVbb/Screenshot-2025-04-23-at-12-55-48-PM.png",
+    githubUrl: "https://github.com/FopefoluwaIkufisile/Tip-Calculator-",
+    liveUrl: "https://fopefoluwaikufisile.github.io/Tip-Calculator-/",
     type: "Frontend Mentor",
+  },
+  {
+    id: 51,
+    title: "React Portfolio",
+    imageUrl:
+      "https://i.ibb.co/d4hwctmt/Screenshot-2025-04-27-at-10-50-15-PM.png",
+    githubUrl: "https://github.com/FopefoluwaIkufisile/React-Portfolio",
+    liveUrl: "https://react-portfolio-zeta-vert-88.vercel.app/",
+    type: "personal",
   },
 ];
 document.querySelector(".dark-mode").addEventListener("click", () => {
