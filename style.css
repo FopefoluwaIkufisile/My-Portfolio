@@ -22,7 +22,6 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
   transition: all 0.2s linear;
   line-height: 1.5;
 }
